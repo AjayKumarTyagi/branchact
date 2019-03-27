@@ -6,7 +6,14 @@ class stack
 	public:
 	void push(int val);
 	void pop();
-	void display();
+	void display()
+	{
+		while(top>=0)
+		{
+		     cout<<stck[top]<<endl;
+		     top++;
+		}
+	}
 };
 int main()
 {
