@@ -4,9 +4,9 @@ class stack
 {
 	int stck[9999],top=-1;
 	public:
-	void push(int val);
-	void pop();
-	void display();
+	void push(int val);   //push function defined
+	void pop();           //pop function defined
+	void display();       //display function defined
 };
 int main()
 {
