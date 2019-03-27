@@ -8,3 +8,10 @@ class stack
 	void pop();
 	void display();
 };
+int main()
+{
+	stack s;
+	s.push();
+	s.pop();
+	s.display();
+}
