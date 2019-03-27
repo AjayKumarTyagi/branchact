@@ -11,12 +11,12 @@ class stack
 int main()
 {
 	stack s;
-	s.push(45);
-	s.push(86);
-	s.push(27);
-	s.display();
-	s.pop();
-	s.display();
-	s.pop();
-	s.display();
+	s.push(45);  //pushed 45
+	s.push(86);  //pushed 86
+	s.push(27);  //pushed 27
+	s.display(); //display stack
+	s.pop();     //poped 27
+	s.display(); //display stack
+	s.pop();     //poped 86
+	s.display(); //display stack
 }
