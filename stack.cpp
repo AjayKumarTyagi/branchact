@@ -5,7 +5,13 @@ class stack
 	int stck[9999],top=-1;
 	public:
 	void push(int val);
-	void pop();
+	void pop()
+	{
+		if(top==-1)
+			cout<<"nothing to pop"<<endl;
+		else
+			top=top-1;
+	}
 	void display();
 };
 int main()
