@@ -4,7 +4,11 @@ class stack
 {
 	int stck[9999],top=-1;
 	public:
-	void push(int val);
+	void push(int val)
+	{
+		top=top+1;
+		stack[top]=val;
+	}
 	void pop();
 	void display();
 };
